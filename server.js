@@ -76,10 +76,9 @@
   }
 
   server = http.createServer(function(req, res) {
-    res.writeHead(200, {
-      'Content-Type': 'text/plain'
-    });
-    return res.end("asdf.");
+    res.writeHead(301,
+       {Location: 'https://www.google.com'});
+    res.end();
   });
 
   wss = new WebSocketServer({
