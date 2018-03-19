@@ -5,6 +5,6 @@
   "local_port": 1080,
   "remote_port": 8080,
   "password": "`try*(^^$some^$%^complex>:<>?~password/",
-  "timeout": 300, /*600,*/
+  "timeout": 300,
   "method": "rc4-md5"
 }
